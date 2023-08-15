@@ -1,0 +1,7 @@
+{
+    "srcType" : "tga",
+    "targetType" : "png",
+    "InputPath": "./Input",
+    "OutputPath": "./",
+    "OutputName": "Output"
+}
