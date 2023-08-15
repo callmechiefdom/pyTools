@@ -29,7 +29,7 @@ def copy_dir(src_path, target_path, srcSuffix, targetSuffix):
                 if os.path.isfile(path) and (("." + srcSuffix) in path):
                     image = Image.open(path)
                     png_file = path1.split(srcSuffix)[0] + targetSuffix
-                    image.save(png_file)
+                    image.save(png_file, targetSuffix)
                     result.append(png_file)
         return result
 
